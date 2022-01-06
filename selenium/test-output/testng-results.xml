@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-01-07T01:00:10 NZDT" name="Default suite" finished-at="2022-01-07T01:00:57 NZDT" duration-ms="47143">
+    <groups>
+    </groups>
+    <test started-at="2022-01-07T01:00:10 NZDT" name="Default test" finished-at="2022-01-07T01:00:57 NZDT" duration-ms="47143">
+      <class name="LearnChromeDriver.SetChromeDriver">
+        <test-method signature="findTagCount()[pri:0, instance:LearnChromeDriver.SetChromeDriver@37654521]" started-at="2022-01-07T01:00:10 NZDT" name="findTagCount" finished-at="2022-01-07T01:00:37 NZDT" duration-ms="26955" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- findTagCount -->
+        <test-method signature="verifyPageTitle()[pri:0, instance:LearnChromeDriver.SetChromeDriver@37654521]" started-at="2022-01-07T01:00:37 NZDT" name="verifyPageTitle" finished-at="2022-01-07T01:00:57 NZDT" duration-ms="20131" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPageTitle -->
+      </class> <!-- LearnChromeDriver.SetChromeDriver -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
