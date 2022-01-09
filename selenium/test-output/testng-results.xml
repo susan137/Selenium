@@ -1,21 +1,96 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="10" passed="9" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-01-07T01:00:10 NZDT" name="Default suite" finished-at="2022-01-07T01:00:57 NZDT" duration-ms="47143">
+  <suite started-at="2022-01-09T17:42:38 NZDT" name="Default suite" finished-at="2022-01-09T17:42:38 NZDT" duration-ms="150">
     <groups>
     </groups>
-    <test started-at="2022-01-07T01:00:10 NZDT" name="Default test" finished-at="2022-01-07T01:00:57 NZDT" duration-ms="47143">
-      <class name="LearnChromeDriver.SetChromeDriver">
-        <test-method signature="findTagCount()[pri:0, instance:LearnChromeDriver.SetChromeDriver@37654521]" started-at="2022-01-07T01:00:10 NZDT" name="findTagCount" finished-at="2022-01-07T01:00:37 NZDT" duration-ms="26955" status="PASS">
+    <test started-at="2022-01-09T17:42:38 NZDT" name="Default test" finished-at="2022-01-09T17:42:38 NZDT" duration-ms="150">
+      <class name="com.obsqura.assignments.CheckdaysMain">
+        <test-method signature="testcase1()[pri:0, instance:com.obsqura.assignments.CheckdaysMain@24fcf36f]" started-at="2022-01-09T17:42:38 NZDT" name="testcase1" finished-at="2022-01-09T17:42:38 NZDT" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- findTagCount -->
-        <test-method signature="verifyPageTitle()[pri:0, instance:LearnChromeDriver.SetChromeDriver@37654521]" started-at="2022-01-07T01:00:37 NZDT" name="verifyPageTitle" finished-at="2022-01-07T01:00:57 NZDT" duration-ms="20131" status="PASS">
+        </test-method> <!-- testcase1 -->
+        <test-method signature="testcase10()[pri:0, instance:com.obsqura.assignments.CheckdaysMain@24fcf36f]" started-at="2022-01-09T17:42:38 NZDT" name="testcase10" finished-at="2022-01-09T17:42:38 NZDT" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyPageTitle -->
-      </class> <!-- LearnChromeDriver.SetChromeDriver -->
+        </test-method> <!-- testcase10 -->
+        <test-method signature="testcase2()[pri:0, instance:com.obsqura.assignments.CheckdaysMain@24fcf36f]" started-at="2022-01-09T17:42:38 NZDT" name="testcase2" finished-at="2022-01-09T17:42:38 NZDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase2 -->
+        <test-method signature="testcase3()[pri:0, instance:com.obsqura.assignments.CheckdaysMain@24fcf36f]" started-at="2022-01-09T17:42:38 NZDT" name="testcase3" finished-at="2022-01-09T17:42:38 NZDT" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase3 -->
+        <test-method signature="testcase4()[pri:0, instance:com.obsqura.assignments.CheckdaysMain@24fcf36f]" started-at="2022-01-09T17:42:38 NZDT" name="testcase4" finished-at="2022-01-09T17:42:38 NZDT" duration-ms="11" status="FAIL">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Testcase#4 expected [Monday2] but found [Monday]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Testcase#4 expected [Monday2] but found [Monday]
+at org.testng.Assert.fail(Assert.java:99)
+at org.testng.Assert.failNotEquals(Assert.java:1037)
+at org.testng.Assert.assertEqualsImpl(Assert.java:140)
+at org.testng.Assert.assertEquals(Assert.java:122)
+at org.testng.Assert.assertEquals(Assert.java:629)
+at com.obsqura.assignments.CheckdaysMain.testcase4(CheckdaysMain.java:69)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+at org.testng.TestRunner.privateRun(TestRunner.java:794)
+at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
+at org.testng.SuiteRunner.run(SuiteRunner.java:276)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
+at org.testng.TestNG.runSuites(TestNG.java:1063)
+at org.testng.TestNG.run(TestNG.java:1031)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase4 -->
+        <test-method signature="testcase5()[pri:0, instance:com.obsqura.assignments.CheckdaysMain@24fcf36f]" started-at="2022-01-09T17:42:38 NZDT" name="testcase5" finished-at="2022-01-09T17:42:38 NZDT" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase5 -->
+        <test-method signature="testcase6()[pri:0, instance:com.obsqura.assignments.CheckdaysMain@24fcf36f]" started-at="2022-01-09T17:42:38 NZDT" name="testcase6" finished-at="2022-01-09T17:42:38 NZDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase6 -->
+        <test-method signature="testcase7()[pri:0, instance:com.obsqura.assignments.CheckdaysMain@24fcf36f]" started-at="2022-01-09T17:42:38 NZDT" name="testcase7" finished-at="2022-01-09T17:42:38 NZDT" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase7 -->
+        <test-method signature="testcase8()[pri:0, instance:com.obsqura.assignments.CheckdaysMain@24fcf36f]" started-at="2022-01-09T17:42:38 NZDT" name="testcase8" finished-at="2022-01-09T17:42:38 NZDT" duration-ms="7" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase8 -->
+        <test-method signature="testcase9()[pri:0, instance:com.obsqura.assignments.CheckdaysMain@24fcf36f]" started-at="2022-01-09T17:42:38 NZDT" name="testcase9" finished-at="2022-01-09T17:42:38 NZDT" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testcase9 -->
+      </class> <!-- com.obsqura.assignments.CheckdaysMain -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

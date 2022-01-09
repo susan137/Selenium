@@ -42,10 +42,11 @@ public class SetChromeDriver {
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://www.obsqurazone.com/");
-		
 		List<WebElement> imgtag=driver.findElements(By.tagName("img"));
 	  
-	        System.out.println(imgtag.size());
+	        System.out.println("The count of Img tag is:"+imgtag.size());
+	        
+	        driver.close();
 	}
 		
 		
