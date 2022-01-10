@@ -11,7 +11,7 @@ public class SeleniumDay2 {
 		System.setProperty("webdriver.chrome.driver", "/Users/susan/Downloads/chromedriver");
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("https://www.obsqurazone.com/");
+		driver.get("//https://www.toolsqa.com/");
 		
 		String actual=driver.getTitle();
 		System.out.println(actual);

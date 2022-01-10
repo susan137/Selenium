@@ -21,7 +21,7 @@ public class CountElements {
 		System.setProperty("webdriver.chrome.driver", "/Users/susan/Downloads/chromedriver");
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.get("https://www.obsqurazone.com/");
+		driver.get("https://www.toolsqa.com/");
 		
 	}
 	
@@ -43,11 +43,13 @@ public class CountElements {
 	}
 	//To Find count of Images and Hyper Links
 	@Test
-	void countAnchorTag() {
+	void countTag() {
 		List<WebElement> links = driver.findElements(By.tagName("a"));
 		System.out.println("The link count is:  "+links.size());	
 		List<WebElement> image = driver.findElements(By.tagName("img"));
 		System.out.println("The count of image tag is:  "+image.size());	
+		List<WebElement> table = driver.findElements(By.tagName("table"));
+		System.out.println("The count of Table is:  "+table.size());
 		
 	}
 	
