@@ -24,21 +24,23 @@ public class CountElements {
 		driver.get("https://www.toolsqa.com/");
 		
 	}
-	
+	//Count the no of Hyperlinks using normal java code from pagesource
 	@Test
 	void countElements() {
 		int count=1;
 		String pagesource=driver.getPageSource();
-		boolean check=pagesource.contains("href");
 		for(int i=0;i<pagesource.length();i++) {
-		if (check) {
+			
+		if (pagesource.contains("a href")) {
 			
 			count++;
-		}
 		
 		}
-		System.out.println("The img Tag count is:  "+count);
-	
+		
+		
+		}
+		
+	System.out.println(count);
 		
 	}
 	//To Find count of Images and Hyper Links
@@ -48,8 +50,6 @@ public class CountElements {
 		System.out.println("The link count is:  "+links.size());	
 		List<WebElement> image = driver.findElements(By.tagName("img"));
 		System.out.println("The count of image tag is:  "+image.size());	
-		List<WebElement> table = driver.findElements(By.tagName("table"));
-		System.out.println("The count of Table is:  "+table.size());
 		
 	}
 	
