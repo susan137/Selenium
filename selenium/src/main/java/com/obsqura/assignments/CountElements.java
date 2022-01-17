@@ -38,6 +38,7 @@ public class CountElements {
 		}
 		
 		
+		
 		}
 		
 	System.out.println(count);
@@ -53,12 +54,15 @@ public class CountElements {
 		
 	}
 	
-	
+	//tr[@class='odd']
 
 	@AfterTest
 	void am() {
 		
 		driver.close();
+		
+	
 	}
+	
 	
 }
